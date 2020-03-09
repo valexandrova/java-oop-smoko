@@ -25,10 +25,10 @@ public class MovingFood extends BoxSet {
     private void randomMove(GridBox box) {
         int r = rand.nextInt(4);
         switch (r) {
-            case 0: move(box, -1, 0); break; // LEFT
-            case 1: move(box, 1, 0); break; // RIGHT
-            case 2: move(box, 0, -1); break; // UP
-            case 3: move(box, 0, 1); break; // DOWN
+            case 0: move(box, 5, 10); break; // LEFT
+            case 1: move(box, 1, 10); break; // RIGHT
+            case 2: move(box, 4, -5); break; // UP
+            case 3: move(box, 10, 1); break; // DOWN
         }
     }
 
@@ -49,5 +49,3 @@ public class MovingFood extends BoxSet {
         box.setY(futureY);
     }
 }
-
-

@@ -42,4 +42,9 @@ public class BoxSet {
     public int getPoints() {
         return 10;
     }
+
+	public int getLength() {
+		
+		return food.size();
+	}
 }
