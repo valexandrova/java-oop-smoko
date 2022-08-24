@@ -1,1 +1,1 @@
-# js-oop-smoko
+# java-oop-smoko
